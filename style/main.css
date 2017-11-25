@@ -47,12 +47,12 @@
 }
 
 .menu-t {
-  visibility: hidden;
+  display: none;
 }
 
 .change .menu-t {
   -webkit-transition: all 0.4s linear;
-  visibility: visible;
+   display: flex;
 }
 
 .bmenu {
