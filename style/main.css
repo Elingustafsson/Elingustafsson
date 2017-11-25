@@ -164,11 +164,9 @@ span {
 .background-me {
   background-color: pink;
   font-family: monospace;
-  width: auto;
   height: 500px;
   width: 100%;
   padding: 77px 0px 107px 0px;
-  border-top: 1px solid pink;
 }
 
 .about-me {
@@ -185,11 +183,9 @@ span {
 .background-ty {
   background-color: lightblue;
   font-family: monospace;
-  width: auto;
   height: 500px;
   width: 100%;
   padding: 77px 0px 107px 0px;
-  border-top: 1px solid pink;
 }
 
 .about-ty {
@@ -206,7 +202,6 @@ span {
 .work-po {
   background-color: brown;
   font-family: monospace;
-  width: auto;
   height: 500px;
   width: 100%;
   padding: 77px 0px 107px 0px;
