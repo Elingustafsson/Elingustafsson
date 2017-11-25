@@ -42,6 +42,8 @@
 .menu {
   cursor: pointer;
   margin-right: auto;
+  flex: 1 1 auto;
+  position: fixed;
 }
 
 .menu-t {
@@ -180,5 +182,5 @@ span {
 }
 .about-ty {
   margin: auto;
-  padding: 40px 46%;
+  padding: 40px 40%;
 }
