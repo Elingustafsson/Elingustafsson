@@ -204,13 +204,12 @@ span {
 }
 
 .background-po {
-  background-color: lightpink;
+  background-color: brown;
   font-family: monospace;
   width: auto;
   height: 500px;
   width: 100%;
   padding: 77px 0px 107px 0px;
-  border-top: 1px solid pink;
 }
 
 .about-po {
@@ -218,7 +217,6 @@ span {
   max-width: 900px;
   margin: 0px auto;
   font-size: 28px;
-  color: #666666;
   text-align: center;
   font-weight: 300;
   line-height: 40px;
