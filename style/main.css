@@ -52,7 +52,7 @@
 
 .change .menu-t {
   -webkit-transition: all 0.4s linear;
-   display: flex;
+  display: flex;
 }
 
 .bmenu {
@@ -114,7 +114,6 @@
   transform: scale(1);
 }
 
-
 .column-one>p {
   color: #fff;
   font-family: monospace;
@@ -167,11 +166,20 @@ span {
   font-family: monospace;
   width: auto;
   height: 500px;
+  width: 100%;
+  padding: 77px 0px 107px 0px;
+  border-top: 1px solid pink;
 }
 
 .about-me {
-  margin: auto;
-  padding: 40px 46%;
+  width: 94%;
+  max-width: 900px;
+  margin: 0px auto;
+  font-size: 28px;
+  color: #666666;
+  text-align: center;
+  font-weight: 300;
+  line-height: 40px;
 }
 
 .background-ty {
@@ -179,8 +187,39 @@ span {
   font-family: monospace;
   width: auto;
   height: 500px;
+  width: 100%;
+  padding: 77px 0px 107px 0px;
+  border-top: 1px solid pink;
 }
+
 .about-ty {
-  margin: auto;
-  padding: 40px 40%;
+  width: 94%;
+  max-width: 900px;
+  margin: 0px auto;
+  font-size: 28px;
+  color: #666666;
+  text-align: center;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.background-po {
+  background-color: lightpink;
+  font-family: monospace;
+  width: auto;
+  height: 500px;
+  width: 100%;
+  padding: 77px 0px 107px 0px;
+  border-top: 1px solid pink;
+}
+
+.about-po {
+  width: 94%;
+  max-width: 900px;
+  margin: 0px auto;
+  font-size: 28px;
+  color: #666666;
+  text-align: center;
+  font-weight: 300;
+  line-height: 40px;
 }
