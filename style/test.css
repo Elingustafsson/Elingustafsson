@@ -1,0 +1,126 @@
+.parallax {
+  background-image: url("../pic/road.jpg");
+  min-height: 600px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1 {
+  max-width: 100%;
+  display: flex;
+  min-height: 600px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bild1 {
+  background-image: url("../pic/butterfly.jpg");
+  flex-grow: 1;
+  height: 300px;
+}
+
+.bild2 {
+  background-image: url("../pic/water.jpg");
+  flex-grow: 1;
+  height: 300px;
+}
+
+/*.bild3 {
+  background-image: url("../pic/road.jpg");
+  flex-direction: column;
+  width: 50%;
+  flex-grow: 1;
+  height: 300px;
+}*/
+
+.caption span.border {
+  background-color: pink;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  opacity: 0.6;
+  border-radius: 45%;
+  font-family: monospace;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.sektion {
+  height: 500px;
+  background-color: pink;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.sektion>p {
+  word-wrap: break-word;
+  /*width: 100px;*/
+}
+
+
+body {
+  margin: 0;
+  font-size: 28px;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/*bilder längre ner https://www.w3schools.com/css/css_image_transparency.asp*/
