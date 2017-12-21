@@ -20,6 +20,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .me-about {
@@ -31,13 +32,14 @@ body, html {
 }
 
 .me-contact {
-  background-image: url("../pic/road.jpg");
-  min-height: 400px;
+  background-image: url("../pic/FAFAFA.png");
+  min-height: 300px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-filter: grayscale(100%);
+  font-family: monospace;
+  /* -webkit-filter: grayscale(100%); */
 }
 
 .me-code {
@@ -53,13 +55,10 @@ body, html {
 }
 
 .mail_img {
-  width: 400px;
+  width: 300px;
   padding: 30px;
 }
 
-.header {
-  background-color: blue;
-}
 
 #navbar a {
   font-family: monospace;
@@ -86,6 +85,7 @@ body, html {
   position: fixed;
   top: 0;
   width: 100%
+
 }
 
 .sticky+.content {
@@ -185,7 +185,6 @@ span {
   transform: rotate(45deg) translate(-8px, -8px);
 }
 
-
 .menu {
   cursor: pointer;
   margin-right: auto;
@@ -244,4 +243,35 @@ span {
   -moz-transition: all 0.4s linear;
   -o-transition: all 0.4s linear;
   -ms-transition: all 0.4s linear;
+}
+
+.img-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.pic-one {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.pic-one:hover {
+  transform: zoom(2);
+}
+
+.about-me {
+  width: 94%;
+  max-width: 900px;
+  margin: 0px auto;
+  font-size: 28px;
+  color: pink;
+  text-align: center;
+  font-weight: 300;
+  line-height: 40px;
+  padding-top: 45px;
 }

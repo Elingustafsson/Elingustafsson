@@ -1,68 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-	<link rel="bild" href="img/.png">
-	<link rel="stylesheet" href="style/main.css">
+	<link rel="stylesheet" href="style/main.css" type="text/css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="UTF-8">
+
+	<meta charset="utf-8">
 	<title>Elin Gustafsson</title>
 </head>
 
 <body>
-	<header>
-
+	<header class="header">
+		<div class="navbar" id="navbar">
+			<a href="#home-page">Home</a>
+			<a href="#me-page">Aboute me</a>
+			<a href="#contact-me">Find me</a>
+		</div>
 	</header>
-	<main>
-		<div class="flex-container" id="main-me">
+	<!-- MOBIL -->
+	<div class="menu" onclick="menu(this)">
+		<div class="line1"></div>
+		<div class="line2"></div>
+		<div class="line3"></div>
+		<div class="menu-t">
+			<ul class="bmenu">
+				<li><a href="#home-page">HOME</a></li>
+				<li><a href="#me-page">ABOUTE ME</a></li>
+				<li><a href="#contact-me">FIND ME</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- MOBIL -->
+	<div class="parallax" id="home-page">
+		<div class="caption">
 			<div class="column-one">
 				<p>hi folks, this is my page. enjoy</p>
 				<p>you can
 					<a href="mailto:elgusen@hotmail.com" title="Elin Gustafsson">press here</a> to contact me<span>|</span></p>
 			</div>
-			<div class="column-tow">
-				<div class="menu" onclick="menu(this)">
-					<div class="line1"></div>
-					<div class="line2"></div>
-					<div class="line3"></div>
-					<div class="menu-t">
-						<ul class="bmenu">
-							<li><a href="#main-me">HOME</a></li>
-							<li><a href="#about-me">ABOUT</a></li>
-							<li><a href="#contact-me">CONTACT</a></li>
-							<li><a href="#portfolio-me">PORTFOLIO</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
 		</div>
-		<section class="background-me" id="about-me">
-			<h2 class="about-me">About me</h2>
-			<div class="img-row">
-				<div class="pic-one-around">
-					<img class="pic-one" src="pic/black_shop.jpg" alt="">
-					<p class="pic-one">text</p>
-				</div>
-				<div class="pic-one-around">
-					<img class="pic-one" src="pic/black_shop.jpg" alt="">
-					<p class="pic-one">text</p>
-				</div>
-				<div class="pic-one-around">
-					<img class="pic-one" src="pic/black_shop.jpg" alt="">
-					<p class="pic-one">text</p>
-				</div>
+		<!-- MOBIL -->
+		<div class="caption-mobile">
+			<p>hi folks, this is my page. enjoy</p>
+			<p>you can
+				<a href="mailto:elgusen@hotmail.com" title="Elin Gustafsson">press here</a> to contact me</p>
+		</div>
+	</div>
+	<section class="content-home" id="me-page">
+		<img class="pic-content" src="pic/road.jpg" alt="">
+		<div class="about-me">
+			<h1>I'm a student at KYH</h1>
+			<h2>what I learn at school right now</h2>
+			<ul class="ul-me">
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>JAVASCRIPT</li>
+			</ul>
+		</div>
+	</section>
+
+	<div class="parallax">
+		<section class="content-contact" id="contact-me">
+			<div class="contact-me">
+				<h1>Inbox me or find me on these places</h1>
+				<h2>Right now I'm looking for a job</h2>
+				<div class="img-row">
+				<img class="img" src="pic/facebook.png" alt="facebook">
+				<img class="img" src="pic/insta.png" alt="instagram">
+				<img class="img" src="pic/linke.png" alt="linkedin">
 			</div>
+			</div>
+
+
 		</section>
-		<section class="background-ty" id="contact-me">
-			<h2 class="about-ty">How to contact me</h2>
-		</section>
-		<section class="work-po" id="portfolio-me">
-			<h2 class="about-po">Some of my work</h2>
-		</section>
-	</main>
-	<footer class="footer">
+	</div>
+
+
+	<footer>
 	</footer>
-	<script type="text/javascript" src="script/main.js"></script>
+	<script src="script/main.js" type="text/javascript"></script>
 </body>
 
 </html>
