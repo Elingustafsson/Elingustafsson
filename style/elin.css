@@ -1,0 +1,21 @@
+
+
+.parallax {
+    /* The image used */
+    background-image: url('../pic/road.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hejhej {
+  height:1000px;
+  background-image: url('../pic/city.png');
+  font-size:36px
+}

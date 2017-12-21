@@ -1,17 +1,17 @@
 .parallax {
-  background-image: url("../pic/road.jpg");
-  min-height: 600px;
+  background-image: url("../pic/elin.jpg");
+  min-height: 800px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: center;
+  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .parallax1 {
   max-width: 100%;
-  display: flex;
   min-height: 600px;
+  background-color: black;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -19,94 +19,83 @@
   background-size: cover;
 }
 
-.bild1 {
+/* .bild1 {
   background-image: url("../pic/butterfly.jpg");
   flex-grow: 1;
   height: 300px;
-}
+} */
 
 .bild2 {
-  background-image: url("../pic/water.jpg");
+  background-image: url("../pic/road.jpg");
   flex-grow: 1;
   height: 300px;
 }
 
-/*.bild3 {
-  background-image: url("../pic/road.jpg");
-  flex-direction: column;
-  width: 50%;
-  flex-grow: 1;
-  height: 300px;
-}*/
-
-.caption span.border {
+.border {
   background-color: pink;
   color: #fff;
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
   opacity: 0.6;
-  border-radius: 45%;
   font-family: monospace;
 }
 
 .caption {
   position: absolute;
-  left: 0;
+  /* left: 0; */
   top: 50%;
   width: 100%;
-  text-align: center;
+  text-align: left;
   color: #000;
 }
 
 .sektion {
   height: 500px;
-  background-color: pink;
-  font-size: 30px;
-  text-align: center;
-  padding-top: 100px;
+  /* background:  */
+  /* font-size: 30px; */
+  /* text-align: center; */
+  /* top: calc(50% - 100px);
+  left: calc(50% - 200px); */
+/* background-attachment: fixed; */
+background-color: pink;
+top: 500px;
+bottom: 500px;
+width: 100%;
+z-index: 200;
+  /* box-shadow: inset 460px 0 311px #04041C, inset -70px 0 209px #ddc3dc */
 }
 
-.sektion>p {
-  word-wrap: break-word;
-  /*width: 100px;*/
+.parallax1 {
+  background-color: white;
+  min-height: 800px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
-body {
+/* body {
   margin: 0;
   font-size: 28px;
-}
-
-.header {
-  background-color: #f1f1f1;
-  padding: 30px;
-  text-align: center;
-}
-
-#navbar {
-  overflow: hidden;
-  background-color: #333;
-}
+} */
 
 #navbar a {
+  font-family: monospace;
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 22px;
 }
 
 #navbar a:hover {
-  background-color: #ddd;
+  background-color: pink;
   color: black;
-}
-
-#navbar a.active {
-  background-color: #4CAF50;
-  color: white;
+  opacity: 0.8;
 }
 
 .content {
@@ -119,8 +108,95 @@ body {
   width: 100%
 }
 
-.sticky + .content {
+.sticky+.content {
   padding-top: 60px;
 }
+
+
+.column-one>p {
+  color: #fff;
+  font-family: monospace;
+  font-size: 28px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 6s steps(60, end);
+}
+
+.column-one>p:nth-child(2) {
+  animation: type2 9s steps(60, end);
+}
+
+.column-one>p>a {
+  color: pink;
+}
+
+span {
+  animation: blink 1s infinite;
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 100;
+  }
+}
+
+@keyframes blink {
+  to {
+    opacity: .0;
+  }
+}
+
+
+
+.background-me {
+  background-color: pink;
+  font-family: monospace;
+  height: 500px;
+  width: 100%;
+  padding: 77px 0px 107px 0px;
+}
+
+.img-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.pic-one {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.about-me {
+  width: 94%;
+  max-width: 900px;
+  margin: 0px auto;
+  font-size: 28px;
+  color: black;
+  text-align: center;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+
+
+/*Sticky header https://codepen.io/ComeonCreative/pen/MKOweK*/
 
 /*bilder längre ner https://www.w3schools.com/css/css_image_transparency.asp*/

@@ -5,47 +5,78 @@
 	<link rel="bild" href="img/.png">
 	<link rel="stylesheet" href="../style/test.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css3-animate-it/css/animations.css" type="text/css">
 	<meta charset="UTF-8">
 	<title>Elin Gustafsson</title>
 </head>
 
 <body>
-	<header>
-
-
+	<header class="header">
+	<div id="navbar">
+	<a href="#">Home</a>
+	<a href="#about-me">My work</a>
+	<a href="#">Contact</a>
+  </div>
 	</header>
 	<main>
     <div class="parallax">
-		<div id="navbar">
-		<a href="#">Home</a>
-		<a href="#">News</a>
-		<a href="#">Contact</a>
-	</div>
-  <div class="caption">
-    <span class="border">ELIN GUSTAFSSON</span>
 
+  <div class="caption">
+		<div class="column-one">
+			<p>hi folks, this is my page. enjoy</p>
+			<p>you can
+				<a href="mailto:elgusen@hotmail.com" title="Elin Gustafsson">press here</a> to contact me<span>|</span></p>
+		</div>
   </div>
 </div>
-    <div class="sektion">
-    	<h3>hej hej hej</h3>
-			<p>testetstetstreui vhuivjioe viorjvirhbuihufd spokoejfri vurieburtuis cnievio</p>
-		</div>
-
-    <div class="parallax1">
-			<div class="parallax1 bild1"></div>
-			<div class="parallax1 bild2"></div>
+    <section class="sektion" id="about-me">
+			<div class="animatedParent" data-sequence="500">
+	<h2 class="animated bounceInDown" data-id="1">It Works!</h2>
+	<h2 class="animated bounceInDown" data-id="2">This animation will start 500ms after</h2>
+	<h2 class="animated bounceInDown" data-id="3">This animation will start 500ms after</h2>
+	</div>
+			<h2 class="about-me">About me</h2>
+			<div class="img-row">
+				<div class="pic-one-around">
+					<img class="pic-one" src="../pic/black_shop.jpg" alt="">
+					<p class="pic-one">text</p>
+				</div>
+				<div class="pic-one-around">
+					<img class="pic-one" src="../pic/black_shop.jpg" alt="">
+					<p class="pic-one">text</p>
+				</div>
+				<div class="pic-one-around">
+					<img class="pic-one" src="../pic/black_shop.jpg" alt="">
+					<p class="pic-one">text</p>
+				</div>
 			</div>
+		</section>
 
 
-    <div class="sektion">
+
+
+		<section>
+			<div class="parallax1">
+
+				</div>
+		</section>
+    <!-- <div class="parallax1"> -->
+			<!-- <div class="parallax1 bild1"></div> -->
+			<!-- <div class="parallax1 bild2"></div>
+			</div> -->
+
+
+    <!-- <div class="sektion1">
 		<p>sbyrufbyrufyurvyeurbvyubvryuervbyurbrvyeburyu
 		vnrejivni</p>
-    </div>
+    </div> -->
 
 	</main>
 	<footer class="footer">
 	</footer>
-	<script type="text/javascript" src="../script/test.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="../css3-animate-it/js/css3-animate-it.js"></script>
+	<script type="../text/javascript" src="../script/test.js"></script>
 </body>
 
 </html>
