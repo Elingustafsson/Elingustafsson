@@ -1,4 +1,4 @@
-function menu (x) {
+function menu(x) {
   x.classList.toggle('change')
 }
 
